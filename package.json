@@ -1,0 +1,17 @@
+{
+  "name": "webdav-rfc4918-cn",
+  "version": "1.0.0",
+  "description": "WebDAV 协议文档 RFC4918 的简体中文翻译.",
+  "main": "index.js",
+  "repository": "https://github.com/FullStackPlayer/WebDAV-RFC4918-CN.git",
+  "author": "FullStackPlayer <fullstackplayer@outlook.com>",
+  "license": "GPLv3",
+  "scripts": {
+    "docs:dev": "vuepress dev Translation",
+    "docs:build": "vuepress build Translation",
+    "predocs:build": "node ./script/generateSideBar"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
