@@ -16,7 +16,7 @@ let docDir = process.cwd() + '/Translation/'
 let docs = fs.readdirSync(docDir)
 for (let i=0; i<docs.length; i++) {
     let name = docs[i]
-    if (name !== 'README.md' && name !== '.vuepress' && name !== 'Wechat.png') {
+    if (name !== 'README.md' && name !== '.vuepress' && name !== 'Wechat.png' && name !== '.DS_Store') {
         sidebar.push('/' + name.replace('.md',''))
     }
 }
